@@ -1,0 +1,114 @@
+/* Reset some default styles for consistent rendering */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #666b6b;
+  padding: 2px;
+  text-align: center;
+}
+
+section b {
+  color: #5c00d4;
+}
+
+.head img {
+  width: 19%;
+  height: auto;
+  border-radius: 70%;
+}
+
+.icon img {
+  width: 20%;
+  height: auto;
+  margin-left: 30%;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.download i {
+    color: rgb(0, 234, 255);
+}
+
+.tb {
+    color: red;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 29px;
+  color: #34d000;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #e41b00;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.kenh {
+  color: #67ae03;
+}
+
+.nhom {
+  color: #008db1;
+}
+
+.download ul li a {
+    text-align: center;
+    color: #0e563c;
+}
+
+.ds ul li a {
+    text-align: center;
+    color: #8b054f;
+}
+
+.ds i {
+    color: #801806;
+} 
+
+footer {
+  background-color: #3a3a3a;
+  color: #00b795;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  footer {
+    font-size: 12px;
+  }
+}
