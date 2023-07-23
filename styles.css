@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+.l2 {
+  color: #005444;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -21,6 +25,11 @@ header {
 
 section b {
   color: #5c00d4;
+}
+
+.loi h1 b {
+  color: #07ccd6;
+  background-color: #7c7c7c;
 }
 
 .head img {
